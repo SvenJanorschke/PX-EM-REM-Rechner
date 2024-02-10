@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einheiten-Umrechner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Einheiten-Umrechner</h1>
+        <p>Ein einfaches Tool zum Umrechnen von Pixel (px), Em und Rem.</p>
+        <div class="input-group">
+            <label for="px-value">Pixel (px):</label>
+            <input type="number" id="px-value" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="em-value">Em:</label>
+            <input type="number" id="em-value" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="rem-value">Rem:</label>
+            <input type="number" id="rem-value" placeholder="0">
+        </div>
+        <div class="result-group">
+            <label for="em-result">Em in Pixel:</label>
+            <span id="em-result">0</span>
+        </div>
+        <div class="result-group">
+            <label for="rem-result">Rem in Pixel:</label>
+            <span id="rem-result">0</span>
+        </div>
+        <div class="result-group">
+            <label for="px-result">Pixel in Em/Rem:</label>
+            <span id="px-result">0</span>
+        </div>
+    </div>
+
+    <div class="signature">
+        <p>&copy; 2023 Sven Janorschke</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
